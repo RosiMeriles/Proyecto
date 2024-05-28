@@ -1,10 +1,8 @@
 
 function validarEnviar(){ 
     parrafo = document.getElementById("error")
-
-    var correo = document.formulario.correo.value;
-
-    var valCorreo = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
+    var correo = document.formulario.correo.value
+    const valCorreo =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
 
     // ANALIZO EL NOMBRE
     if(document.formulario.nombre.value.length <= 2){
@@ -38,6 +36,7 @@ function validarEnviar(){
     if (!valCorreo.test(correo)) {
         document.formulario.correo.focus();
         parrafo.innerHTML = "Por favor, ingrese un correo electrónico válido.";
+        return
     }
 
     if(document.formulario.usuario.value.length <= 2){
