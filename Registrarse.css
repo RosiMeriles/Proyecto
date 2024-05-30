@@ -1,0 +1,81 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/ImagendelRegistro/Fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.formulario{
+    width: 60vh;
+    align-items: center;
+    margin-top: 100px;
+    border: 2px solid rgba(255, 255,255, .6);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.formulario h1{
+    color: rgb(252, 252, 252);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+label{
+    padding: 15px;
+    font-size: 2vh;
+    border-radius: 30px;
+}
+
+input, select{
+    background-color: rgba(255, 0, 0, 0.096);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+select option{
+    color: rgba(0, 0, 0, 0.993);
+}
+
+
+#bl :hover{
+    color: rgba(4, 250, 45, 0.959);
+}
+#bl{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.411);
+    background-color: azure;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: box-shadow 0.3s ease, color 0.3s ease;
+}
+
+#bl:hover{
+    color: rgba(255, 195, 127, 0.973);
+    box-shadow: 0 0 10px rgba(0, 247, 255, 0.699), 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
