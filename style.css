@@ -78,7 +78,7 @@ header a:hover{
     flex-direction: column;
     height: 90vh;
     background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
-    , url("/imagenes/cine1.jpg");
+    , url("img/imagenesNuevas/cine1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -119,7 +119,7 @@ padding: 100px 12px;
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/climax.jpg");
+    ,url("img/imagenesNuevas/climax.jpg");
 
 }
 
@@ -129,7 +129,7 @@ padding: 100px 12px;
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/Afiche-Star-wars.jpg");
+    ,url("img/imagenesNuevas/Afiche-Star-wars.jpg");
 }
 .carta:nth-child(3){
     background-image: linear-gradient(
@@ -137,7 +137,7 @@ padding: 100px 12px;
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/Close-664164941-large.jpg");
+    ,url("img/imagenesNuevas/Close-664164941-large.jpg");
 }
 .carta:nth-child(4){
     background-image: linear-gradient(
@@ -145,7 +145,7 @@ padding: 100px 12px;
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/Djangosincadenas.webp");
+    ,url("img/imagenesNuevas/Djangosincadenas.webp");
 }
 .carta:nth-child(5){
     background-image: linear-gradient(
@@ -153,7 +153,7 @@ padding: 100px 12px;
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/MV5BYmRlNTJkMDMtNTAwOS00MThjLThiODItMzE2ZTM1MzdlYWYwXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg");
+    ,url("img/imagenesNuevas/MV5BYmRlNTJkMDMtNTAwOS00MThjLThiODItMzE2ZTM1MzdlYWYwXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg");
 }
 
 
