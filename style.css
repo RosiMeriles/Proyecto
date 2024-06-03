@@ -156,8 +156,6 @@ padding: 100px 12px;
     ,url("img/imagenesNuevas/MV5BYmRlNTJkMDMtNTAwOS00MThjLThiODItMzE2ZTM1MzdlYWYwXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg");
 }
 
-
-
 footer .container{
     height: 150px;
     display: flex;
@@ -171,7 +169,6 @@ footer p{
     margin:0;
     color: #577B8D ;
 }
-
 @media (min-width:720px){
 
 header .container{
@@ -188,7 +185,8 @@ header{
 }
 
 #sobre-nosotros{
-
+    padding: 50px 12px;
+    text-align: center;
 }
 #recomendados .peliculas{
     display: flex;
@@ -202,8 +200,83 @@ header{
 #recomendados .carta button{
     margin-top: 130%;
 
-
-
-
 }
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.75em;
+    }
+    p{
+        font-size: 1em;
+    }
+    button{
+        font-size: 1.25em;
+    }
+    header .logo{
+        padding: 15px 20px;
+        font-size: 1.5em;
+    }
+    #image1{
+        height: 50vh;
+        padding: 20px;
+    }
+    #recomendados .container{
+        padding: 50px 12px;
+    }
+    #recomendados .carta{
+        margin: 20px;
+        padding: 30px 0;
+    }
+    footer .container{
+        height: 100px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    button {
+        font-size: 1em;
+        padding: 8px 8px;
+    }
+    header .logo {
+        padding: 10px 15px;
+        font-size: 1.25em;
+    }
+    #image1 {
+        height: 40vh;
+        padding: 15px;
+    }
+    #recomendados .container {
+        padding: 40px 12px;
+    }
+    #recomendados .carta {
+        margin: 15px;
+        padding: 20px 0;
+    }
+    footer .container {
+        height: 80px;
+    }
+    footer p {
+        font-size: 14px;
+    }
 }
