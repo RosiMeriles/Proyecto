@@ -68,12 +68,8 @@ body{
     width: 60vh;
     align-items: center;
     margin-top: 100px;
-<<<<<<< HEAD
-    border: 2px solid rgba(255, 255, 255, .6);
-=======
     position: sticky;
     border: 2px solid rgba(255, 255,255, .6);
->>>>>>> 4f57f34d22183b73ca493ce2f82e85ed4e77a482
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
