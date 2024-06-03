@@ -15,14 +15,16 @@ section{
 }
 .contenedor{
     position: relative;
-    width: 400px;
-    border: 2px solid rgba(255, 255,255, .6);
+    width: 90%; 
+    max-width: 450px;
+    border: 2px solid rgba(255, 255, 255, .6);
     border-radius: 20px;
-    height: 450px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box; 
 }
 .contenedor h2{
     font-size: 2.3rem;
@@ -32,34 +34,31 @@ section{
 .InputYContenedor{
     position: relative;
     margin: 30px 0;
-    width: 300px;
+    width: 100%; 
     border-bottom: 2px solid #fff;
 }
 .InputYContenedor label{
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 5px;
     transform: translateY(-50%);
     color: #fff;
     pointer-events: none;
     transition: .6s;
-    
 }
-
-
 input:focus ~ label,
 input:valid~label{
-    top:-6px; }
+    top: -6px;
+}
 .InputYContenedor input{
-    width: 100;
+    width: 100%; 
     height: 50px;
     background-color: transparent;
     border: none;
-    outline:none;
+    outline: none;
     font-size: 1rem;
-    padding: -35px 0 5px;
+    padding: 0 0 5px; 
     color: #fff;
-    
 }
 .InputYContenedor i{
     position: absolute;
@@ -67,18 +66,14 @@ input:valid~label{
     font-size: 1.6rem;
     top: 19px;
     right: 8px;
-
 }
-
 .olvidar{
-    margin:  15px;
+    margin: 15px;
     font-size: .9em;
     color: #fff;
     display: flex;
     justify-content: center;
-
 }
-
 .olvidar label input{
     margin: 3px;
 }
@@ -86,8 +81,6 @@ input:valid~label{
     color: #fff;
     font-size: .9em;
 }
-
-
 button{
     width: 100%;
     height: 45px;
@@ -99,28 +92,49 @@ button{
     outline: none;
     font-size: 1rem;
     transition: .4s;
-
 }
-
 button:hover{
     opacity: .9;
 }
 .registrarse p a{
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     text-align: center;
     margin: 20px 0 10px;
-
 }
-
 .registrarse p a{
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     transition: .3s;
-
 }
-
 .registrarse p a:hover{
     text-decoration: underline;
+}
+
+/* Media Queries para Responsividad */
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 80%; 
+    }
+    .contenedor h2 {
+        font-size: 2rem;
+    }
+    button {
+        height: 40px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        width: 95%;
+    }
+    .contenedor h2 {
+        font-size: 1.8rem; 
+    }
+    .olvidar {
+        flex-direction: column;
+        align-items: center; 
+    }
 }
